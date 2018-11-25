@@ -1,37 +1,19 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About the blog
+tags: [outreachy]
+date: 2018-11-19
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Welcome!
+My name is Anastasia Tsikoza, I live in Saint Petersburg, Russia, and I am a newly accepted [Outreachy](https://www.outreachy.org/) intern at Debian. This winter I'll be working on the project "Improve integration of Debian derivatives with Debian infrastructure and community". In this blog I am going to write about my experience within the internship.
 
-## Preview
+## Project tasks
+All project tasks are listed on [wiki.debian.org](https://wiki.debian.org/Outreachy/Round16/Projects/DerivativesIntegration). Once I start working on any of them, I'll try to describe it here in more details.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## Contact information
+You can send me an [email](mailto:anastasia.tsikoza@gmail.com) or find me on [twitter](https://twitter.com/moonkin29).
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## Miscellaneous
+This picture of an Icelandic black-sand beach in the background is taken by [Norbert von Niman](https://www.norrisniman.com/about). Iceland is wonderful. It inspires me and I wish to visit it one day.
