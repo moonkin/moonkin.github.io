@@ -49,14 +49,13 @@ h3.title a {
 		margin: 0 10px;
 		text-decoration: none;
 		background: $white;
-		color: $color_shark;
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $steelbluedark;
 			font-weight: bolder;
             &:hover {
-                color: $red;
+                color: $steelblue;
             }
 		}
 		p {
@@ -89,20 +88,11 @@ figcaption {
 
 // links
 a {
+	text-decoration: none;
   transition: color .4s;
-  color: $color_shark;
-  &:link {
-  	color: $color_shark;
-  }
-  &:visited {
-  	color: $color_tuatara;
-  }
+	color: $steelbluedark;
   &:hover {
-  	color: $red;
-  }
-  &:active {
-  	transition: color .3s;
-  	color: $maroon;
+  	color: $steelblue;
   }
 }
 
