@@ -1,7 +1,7 @@
 # Site
 title:              Moonkin's blog
 bio:                'My journey with Debian and Outreachy.'
-description:        "Blog created for describing my experience within the Outreachy internship."
+description:        'Blog created for describing my experience within the Outreachy internship.'
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -37,7 +37,7 @@ disqus_shortname:   moonkin
   #ad-client:
   #ad-slot:
 #bing-verify:
-#feed:              '/feed.xml'
+rss:                feed.xml
 email:             anastasia.tsikoza@gmail.com
 twitter:            moonkin29
 #facebook:           username
