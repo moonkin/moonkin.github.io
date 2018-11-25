@@ -53,6 +53,7 @@ h3.title a {
 			@include font-rem(20);
 			text-decoration: none;
 			color: $steelbluedark;
+			font-weight: 500;
 			font-weight: bolder;
             &:hover {
                 color: $steelblue;
@@ -90,6 +91,7 @@ figcaption {
 a {
 	text-decoration: none;
   transition: color .4s;
+	font-weight: 500;
 	color: $steelbluedark;
   &:hover {
   	color: $steelblue;
