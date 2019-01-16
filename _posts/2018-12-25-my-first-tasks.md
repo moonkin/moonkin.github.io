@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My first tasks"
+title: "Week 3: My first tasks"
 date: 2018-12-25
 feature: 'assets/img/raphael-koh-259721-unsplash.jpg'
 excerpt: "The work I've done during the first three weeks of the internship and my experience of getting stuck and asking for help."

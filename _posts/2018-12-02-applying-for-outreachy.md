@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Applying for Outreachy"
+title: "Week 1: Applying for Outreachy"
 date: 2018-12-02
 feature: 'assets/img/lemur-357293-unsplash.jpg'
 excerpt: "How I became an Outreachy intern in Debian: details of the application process."
@@ -50,7 +50,7 @@ scripting which I wanted to improve as well as Python. Also there was Git marked
 that you can be a complete beginner and mentors are ready to teach you. I must say that my Git
 skills were very limited. I finished an online course and understood how Git works in
 theory, but I haven't had enough practice because I've only tried local repositories. Also I have
-never even seen Makefiles and was unfamiliar with a lot of Debian-specific stuff, but thought it
+never even seen makefiles and was unfamiliar with a lot of Debian-specific stuff, but thought it
 would be great to get to know some.
 
 So in the following weeks I had to ask one of the project's mentors, Paul Wise, several really
@@ -81,7 +81,7 @@ it and created a fork only after I had trouble opening a merge request... rememb
 skills). I didn't know which options to specify for the `make` command, so I was just sitting there
 watching while it was creating directories for all the derivatives and producing some cryptic output.
 Later I identified several kinds of errors in the output. The easiest ones were about broken
-links and missing logo images, and those could have been fixed simply by updating the wiki pages.
+links and missing logo images, and those might have been fixed simply by updating the wiki pages.
 So I did it. Some errors stopped appearing and I was proud of myself as if it was the project's most
 important FIXME :)
 
@@ -105,14 +105,14 @@ the very purpose of the task and being unable to ask the right questions
 - I didn't realise that we needed a `debian.apt` directory with Debian sources files, and tried to use
 sources from the derivatives `apt` directory (some of them even don't have one)
 - I spent a huge amount of time trying to understand how to handle the `APT_CONFIG` environment
-variable inside the Makefiles and my script
+variable inside the makefiles and my script
 
 **Good moments:**
 - As a result I learned how to:
   - write proper commit messages
   - squash commits
   - consciously add new targets with prerequisites and rules with automatic variables (all those `$@` and
-  `$<` things) to Makefiles
+  `$<` things) to makefiles
   - use shellcheck tools to correct shell scripts
   - handle stress and be patient to myself, at least sometimes
 - In the end the `APT_CONFIG` was set correctly!
@@ -122,8 +122,7 @@ variable inside the Makefiles and my script
 Now I don't feel so bad about how I had described this contribution on the Outreachy website :)
 After reading my description there one would think it all went without a hitch. No, it didn't!
 It was a painful, but also exciting experience, and when all finally clarified it felt like a blessing.
-And it's really cool when your code is reviewed by someone knowledgeable. And also I began to really
-like Makefiles!
+And it's really cool when your code is reviewed by someone knowledgeable. And also I began to really like makefiles!
 
 **What I would advise my past self**
 - Don't panic
